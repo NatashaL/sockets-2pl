@@ -1,7 +1,6 @@
 # sockets-2pl-4-DDB
-Python socket communication and 2PL mechanism for a distributed database
 
-####A project for the course Distributed Systems at Mälardalen University.
+####Python socket communication and 2PL mechanism for a distributed database
 
 Creating and maintaing a duplicated database on multiple nodes in a network using 2 phase locking mechanism.
 
