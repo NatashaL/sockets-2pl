@@ -1,4 +1,4 @@
-# sockets-2pl-4-DDB
+# sockets-2pl
 
 ####Python socket communication and 2PL mechanism for a distributed database
 
