@@ -118,8 +118,8 @@ def execute_local_query(database, QUERY):
 		exec(left + '=' + result)				#store the result in the variable on the left side
 
 		for token in tokens:					#construct the update query that needs to be sent to other nodes to update their databases
-			set_var(database,token,result)
-			update_query_list += [token + '=' + result]
+			set_var(database,token,eval(token))
+			update_query_list += [token + '=' + str(eval(token))]
 
 	return ';'.join(update_query_list)				#the update query looks like: var1=val1; var2 = val2; var3 = val3; ...
 
