@@ -453,8 +453,10 @@ def __main__():
 		unlock(expression)
 		print 'Locks released'
 
-
-__main__()	#The main method is called here.
+try:
+	__main__()	#The main method is called here.
+except Exception as e:
+	print e
 
 if sock != None:
 	sock.close()
