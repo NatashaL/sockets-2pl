@@ -1,10 +1,10 @@
 # sockets-2pl
 
-####Python socket communication and 2PL mechanism for a distributed database
+#### Python socket communication and 2PL mechanism for a distributed database
 
 Creating and maintaing a duplicated database on multiple nodes in a network using 2 phase locking mechanism.
 
-#####How to:
+#### How to:
  - Specify a hostfile with IP addresses and ports for your nodes. When running, set the host_index to the corresponding line number (starting from 0).
 
  - Run node.py in different terminals or different machines.
